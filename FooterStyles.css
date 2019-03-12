@@ -1,0 +1,226 @@
+footer{
+    background-color: #323232;
+    height: 607px;
+    display: flex;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 580px;
+    height: 365px;
+    flex-basis: 580px;
+    margin-right: 20px;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+form *{
+    /* margin-bottom: 16px; */
+}
+form input{
+    background-color: #454545;
+    color: white;
+    border: 0px;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;    
+    height: 38px;
+    padding: 12px 15px;
+}
+form textarea{
+    background-color: #454545;
+    color: white;
+    resize: none;
+    border: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 150px;
+    padding-left: 15px;
+    padding-top: 11px;
+}
+input::-webkit-input-placeholder 
+{
+    font-size: 11px;
+    color:rgba(190, 190, 190, 255);
+    text-align: justify;
+    align-items: center;
+    font-family: 'Lato';
+}
+textarea::-webkit-input-placeholder 
+{
+    font-size: 11px;
+    color:rgba(190, 190, 190, 255);
+    text-align: justify;
+    align-items: center;
+    font-family: 'Lato';
+}
+
+.sendBtn{
+    color: rgba(215, 252, 245, 255);
+    background-color: #2eb398;
+    height: 37px;
+    width: 90px;
+    align-self: flex-end;
+    margin: 0px;
+    font-size: 11px;
+}
+.footerWrapper{
+    background-color: #323232;
+    box-sizing: border-box;
+    width: 960px;
+    height: 542px;
+    margin: auto;
+    padding: 49px 90px;
+    border-bottom: 1px solid #2b2b2b;
+    border-top: 1px solid #2b2b2b;
+}
+.footerHeader{
+
+}
+
+.footerHeader h1{
+    margin-block-start: 0px;
+    margin: 0px;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 30.1px;
+    color: rgba(224, 224, 224, 255);
+    font-weight: normal;
+    line-height: 106%;
+    text-align: justify;
+}
+.footerHeader h3{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: 'Maven Pro';
+    font-size: 18px;
+    color: rgba(190, 190, 190, 255);
+    font-weight: normal;
+    text-align: justify;
+}
+
+.InputField{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 180px;
+}
+.info strong{
+    font-weight: bolder;
+    color: rgba(224, 224, 224, 255);
+}
+.info p{
+    margin: -6px 0px 35px 0px;
+    color: rgba(190, 190, 190, 255);
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 22.7px;
+    text-align: justify;
+    word-wrap: break-word;
+}
+.info .item1{
+    list-style-image: url(./icons/location@1X.png);
+}
+.info .item2{
+    list-style-image: url(./icons/phone@1X.png);
+}
+.info .item3{
+    list-style-image: url(./icons/mail@1X.png);
+}
+.Contacts{
+    display: flex;
+    height: 56px;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.FIcons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 53px;
+}
+.iconTxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+    height: 100%;
+}
+.iconTxt div{
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 12.1px;
+    color: rgba(190, 190, 190, 255);
+}
+.row{
+    display: flex;
+}
+.cell{
+    color: rgba(190, 190, 190, 255);
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 12pt;
+}
+.icons a {
+    height: 24.8px;
+    width: 24.3px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.copyright{
+    height: 43px;
+    background-color: #222;
+}
+.copyright div{
+    margin-left: 39px;
+    margin-top: 14.4px;
+    font-family: 'Maven Pro';
+    font-size: 11.6px;
+    color: rgba(69, 69, 69, 255);
+}
+
+.facebook{
+    background-image: url(./assets/facebook.png)
+}
+.facebook:hover{
+    background-image: url(./assets/FacebookColor.png)
+}
+
+.twitter{
+    background-image: url(./assets/twitter.png)
+}
+.twitter:hover{
+    background-image: url(./assets/TwitterColored.png)
+}
+
+.google{
+    background-image: url(./assets/google.png)
+}
+.google:hover{
+    background-image: url(./assets/GoogleColored.png)
+}
+
+.pinterest{
+    background-image: url(./assets/pinterest.png)
+}
+.pinterest:hover{
+    background-image: url(./assets/PinterestColored.png)
+}
+
+.linked{
+    background-image: url(./assets/linkedin.png)
+}
+.linked:hover{
+    background-image: url(./assets/LinkedinColored.png)
+}
+
+.dribble{
+    background-image: url(./assets/dribble.png)
+}
+.dribble:hover{
+    background-image: url(./assets/DribbbleColored.png)
+}

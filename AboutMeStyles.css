@@ -1,0 +1,94 @@
+.AboutMe {
+    background-color: #2eb398;
+    height: 342px;
+    display: flex;  
+}
+.AboutMe_Wrapper{
+    display: flex;
+    height: 206px;
+    width: 780px;
+    margin: auto;
+    padding-right: 10px;
+    padding: 55px 20px;
+    border-left: 1px solid #219d84;
+    border-right: 1px solid #219d84;
+    background-color: #2eb398;
+}
+
+.AboutMe_text {
+    display: inline-block;
+    margin-left: 19px;
+    width: 581px;
+}
+.AboutMe_text h2{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 29.5px;
+    color: rgba(215, 252, 245, 255);
+    text-align: justify;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 27px;
+    font-weight: normal;
+}
+.AboutMe_text h3{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 17.6px;
+    color: rgba(32, 129, 109, 255);
+    text-align: justify;
+    margin-top: 0px;
+    margin-bottom: 14px;
+    font-weight: normal;
+}
+.AboutMe_text p{
+    font-family: Lato;
+    font-size: 11.8px;
+    color: rgba(215, 252, 245, 255);
+    text-align: justify;
+    margin-top: 0px;
+    margin-bottom: 34px;
+    line-height: 22px;
+}
+
+.Ahexagon img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+.Ahexagon {
+    width: 180px; 
+    height: 206px;
+	background: red;
+    position: relative;
+    top: 0px;
+    overflow: hidden;
+}
+.Ahexagon:before {
+	content: "";
+	position: absolute;
+	top: 0px; 
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 90px solid #2eb398;
+	border-right: 90px solid #2eb398;
+    border-bottom: 52px solid transparent;
+    z-index: 2;
+}
+.Ahexagon:after {
+	content: "";
+	position: absolute;
+	bottom: 0px; 
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 90px solid #2eb398;
+	border-right: 90px solid #2eb398;
+    border-top: 52px solid transparent;
+    z-index: 2;
+}
+.icons{
+    display: flex;
+    justify-content: flex-end;
+}
